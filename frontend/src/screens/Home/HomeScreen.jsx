@@ -4,7 +4,7 @@ import CardMenu from '../../components/CardMenuSet/CardMenu';
 import Meta from '../../components/Helmet/Meta';
 import OurServices from '../../components/OurServices/OurServices';
 import SliderComponent from '../../components/Slider/Slider';
-import GenralMap from '../Map/GenralMap';
+// import GenralMap from '../Map/GenralMap';
 
 const HomeScreen = () => {
 
@@ -14,7 +14,7 @@ const HomeScreen = () => {
             <SliderComponent />
             <CardMenu />
             <OurServices />
-            <GenralMap />
+            {/* <GenralMap /> */}
         </>
     )
 }
