@@ -40,7 +40,7 @@ const LoginComponent = ({ location, history }) => {
             <Meta
                 title="Agroic | Sign In"
             />
-            <h1 style={{ marginTop: '120px' }}>Sign In</h1>
+            <h1 style={{ marginTop: '170px' }}>Sign In</h1>
             { error && <Message variant='danger'>{error}</Message>}
             { loading && <Loader />}
             <Form onSubmit={submitHandler}>
@@ -67,7 +67,7 @@ const LoginComponent = ({ location, history }) => {
                 <Button type="submit" variant="primary">Sign In</Button>
             </Form>
             <Row className='py-3'>
-                <Col style={{ marginBottom: '30px' }}>
+                <Col style={{ marginBottom: '80px' }}>
                     New Customer? <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>Register</Link>
                 </Col>
             </Row>

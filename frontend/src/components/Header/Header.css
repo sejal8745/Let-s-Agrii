@@ -1,58 +1,61 @@
-.navbar
-{
-    background-color: #008f11 !important;
-    width: auto;
-    color: white !important;
+.navbar {
+  background-color: #feffde !important;
+  width: auto;
+  color: white !important;
+  box-shadow: 2px 2px 2px 2px #52734d;
+  /* border-bottom: 5px solid #52734d; */
 }
-.nav-cal{
-    width: auto;
-    color: white !important;
-    font-size: 14px;
+.nav-cal {
+  width: auto;
+  color: #52734d !important;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-#username, #adminmenu {
-    color: white !important;
-    font-size: 14px;
+#username,
+#adminmenu {
+  color: #52734d !important;
+  font-size: 16px;
 }
 
 .cart {
-    text-decoration: none !important;
-    margin-left: 0rem !important;
-    font-size: 14px !important;
-    color: white !important;
+  text-decoration: none !important;
+  margin-left: 0rem !important;
+  font-size: 16px !important;
+  color: #52734d !important;
 }
 
 .fa-shopping-cart {
-    margin-right: 8px ;
-    color: white;
+  margin-right: 8px;
+  color: #52734d;
 }
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
-    .navbar {
-        height: 90px;      
-    }
-    .cart {
-        float: right !important;
-        margin-left: 35rem !important;
-        color: white !important;
-        font-size: 14px !important;
-        font-size: 14px;
-    }
-    .remove-space {
-        float: right !important;
-        margin-left: 35rem !important;
-        color: white !important;
-        font-size: 14px !important;
-    }
-    .nav-cal{
-        margin-left: 10px;
-    }
+  .navbar {
+    height: 90px;
+  }
+  .cart {
+    float: right !important;
+    margin-left: 35rem !important;
+    color: #52734d !important;
+    font-size: 16px !important;
+    font-size: 16px;
+  }
+  .remove-space {
+    float: right !important;
+    margin-left: 35rem !important;
+    color: #52734d !important;
+    font-size: 16px !important;
+  }
+  .nav-cal {
+    margin-left: 10px;
+  }
 }
 
 /* Phone */
-@media only screen and (max-width:320px) {
-    .nav-cal{
-        font-size: 15px !important;
-    }
+@media only screen and (max-width: 320px) {
+  .nav-cal {
+    font-size: 15px !important;
+  }
 }
