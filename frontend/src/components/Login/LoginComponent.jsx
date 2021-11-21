@@ -45,10 +45,10 @@ const LoginComponent = ({ location, history }) => {
             { loading && <Loader />}
             <Form onSubmit={submitHandler}>
                 <Form.Group controlId='email'>
-                    <Form.Label>Email Address / NIC <span style={{ color: 'red' }}>*</span></Form.Label>
+                    <Form.Label>Email Address <span style={{ color: 'red' }}>*</span></Form.Label>
                     <Form.Control
                         type="nic"
-                        placeholder="Enter email or NIC"
+                        placeholder="Enter email address"
                         value={email}
                         required
                         onChange={(e) => setEmail(e.target.value)}
@@ -64,11 +64,11 @@ const LoginComponent = ({ location, history }) => {
                         onChange={(e) => setPassword(e.target.value)}
                     ></Form.Control>
                 </Form.Group>
-                <Button type="submit" variant="primary">Sign In</Button>
+                <Button type="submit"style={{backgroundColor:"#91C788", border: "none"}}>Sign In</Button>
             </Form>
             <Row className='py-3'>
                 <Col style={{ marginBottom: '80px' }}>
-                    New Customer? <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>Register</Link>
+                    New Customer? <Link style={{color: "#91C788"}} to={redirect ? `/register?redirect=${redirect}` : '/register'}>Register</Link>
                 </Col>
             </Row>
         </FormContainer>

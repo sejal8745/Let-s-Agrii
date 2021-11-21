@@ -55,7 +55,7 @@ const Register = ({ location, history }) => {
             {loading && <Loader />}
             <Form onSubmit={submitHandler}>
                 <Row>
-                    <Col md={6}>
+                    <Col md={12}>
                         <Form.Group controlId='name'>
                             <Form.Label>Name <span style={{ color: 'red' }}>*</span></Form.Label>
                             <Form.Control
@@ -67,26 +67,18 @@ const Register = ({ location, history }) => {
                             ></Form.Control>
                         </Form.Group>
                         <Form.Group controlId='email'>
-                            <Form.Label>Email Address / NIC <span style={{ color: 'red' }}>*</span></Form.Label>
+                            <Form.Label>Email Address<span style={{ color: 'red' }}>*</span></Form.Label>
                             <Form.Control
                                 type="nic"
-                                placeholder="Enter email or NIC"
+                                placeholder="Enter email address"
                                 value={email}
                                 required
                                 onChange={(e) => setEmail(e.target.value)}
                             ></Form.Control>
                         </Form.Group>
-                        <Form.Group controlId='cropSelection'>
-                            <Form.Label>Crop Selection (optional)</Form.Label>
-                            <Form.Control
-                                type="cropSelection"
-                                placeholder="Enter crop               "
-                                value={cropSelection}
-                                onChange={(e) => setCropSelection(e.target.value)}
-                            ></Form.Control>
-                        </Form.Group>
-                    </Col>
-                    <Col md={6}>
+                        
+                    {/* </Col> */}
+                    {/* <Col md={12}> */}
                         <Form.Group controlId='password'>
                             <Form.Label>Password <span style={{ color: 'red' }}>*</span></Form.Label>
                             <Form.Control
@@ -107,13 +99,22 @@ const Register = ({ location, history }) => {
                                 onChange={(e) => setConfirmPassword(e.target.value)}
                             ></Form.Control>
                         </Form.Group>
-                        <Button type="submit" variant="primary">Register</Button>
+                        <Form.Group controlId='cropSelection'>
+                            <Form.Label>Crop Selection (optional)</Form.Label>
+                            <Form.Control
+                                type="cropSelection"
+                                placeholder="Enter crop               "
+                                value={cropSelection}
+                                onChange={(e) => setCropSelection(e.target.value)}
+                            ></Form.Control>
+                        </Form.Group>
+                        <Button type="submit"style={{backgroundColor:"#91C788", border: "none"}}>Register</Button>
                     </Col>
                 </Row>
             </Form>
             <Row className='py-3'>
                 <Col style={{ marginBottom: '30px' }}>
-                    Have an Account? <Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>Login</Link>
+                    Have an Account? <Link style={{color: "#91C788"}} to={redirect ? `/login?redirect=${redirect}` : '/login'}>Login</Link>
                 </Col>
             </Row>
         </FormContainer>
