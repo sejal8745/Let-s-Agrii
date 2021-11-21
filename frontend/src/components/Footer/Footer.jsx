@@ -51,10 +51,10 @@ const Footer = () => {
                                 <strong>Links</strong>
                             </h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
-                            <p><Link to="/farmer" className="dark-grey-text">Famer</Link></p>
-                            <p><Link to="/consumer" className="dark-grey-text">Consumer </Link></p>
-                            <p><Link to="/supplier" className="dark-grey-text">Supplier</Link></p>
-                            <p><Link to="/cart" className="dark-grey-text">Cart</Link></p>
+                            <p><Link style={{color: "#91C788"}} to="/farmer" className="dark-grey-text">Famer</Link></p>
+                            <p><Link style={{color: "#91C788"}} to="/consumer" className="dark-grey-text">Consumer </Link></p>
+                            <p><Link style={{color: "#91C788"}} to="/supplier" className="dark-grey-text">Supplier</Link></p>
+                            <p><Link style={{color: "#91C788"}} to="/cart" className="dark-grey-text">Cart</Link></p>
                         </MDBCol>
                         <MDBCol md="3" lg="3" xl="4" className="mb-4 dark-grey-text">
                             <h6 className="text-uppercase font-weight-bold">
