@@ -68,7 +68,7 @@ const ConsumerScreen = () => {
                                     }
                                     {
                                         numberOfItems >= consumerProducts.length
-                                            ? <Alert style={{ backgroundColor: 'red' }} className="col-md-12 text-center">Finished</Alert>
+                                            ? <Alert style={{ backgroundColor: '#52734D' }} className="col-md-12 text-center">Finished</Alert>
                                             : ''
                                     }
                                     <Button className="col-md-12 text-center" variant="success outline-dark" onClick={showMore}>Show more</Button>
