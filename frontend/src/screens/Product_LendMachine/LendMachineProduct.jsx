@@ -106,7 +106,7 @@ const LendMachineProduct = ({ history, match }) => {
                                                     )
                                                 }
                                                 <ListGroup.Item>
-                                                    <Button type="button" className="btn btn-block" onClick={addtoCartHandler} >Add To Cart</Button>
+                                                    <Button type="button" className="btn btn-block" style = {{ backgroundColor: '#91C788', border: "none"}} onClick={addtoCartHandler} >Add To Cart</Button>
                                                 </ListGroup.Item>
                                             </ListGroup>
                                         </Card>
