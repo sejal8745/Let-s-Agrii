@@ -85,12 +85,11 @@ const Footer = () => {
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
-                {/* <div className="footer-copyright text-center py-3">
+                <div className="footer-copyright text-center py-3">
                     <MDBContainer fluid>
-                        &copy; {new Date().getFullYear()} Copyright:{" "}
-                    Sanjula De Alwis
+                        &copy; {new Date().getFullYear()} Copyright
                 </MDBContainer>
-                </div> */}
+                </div>
             </MDBFooter>
         </BrowserRouter>
     )
