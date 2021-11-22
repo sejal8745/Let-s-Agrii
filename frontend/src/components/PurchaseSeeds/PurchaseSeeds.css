@@ -3,7 +3,12 @@
 }
 
 .card-image {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.btn-preview {
+  background-color: #91c788;
+  border: "none";
 }

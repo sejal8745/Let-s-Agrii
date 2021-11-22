@@ -19,13 +19,14 @@ const PurchaseSeeds = ({ _id, name, rating, image, reviews, price }) => {
                         <Rating
                             value={rating}
                             text={`${reviews} reviews`}
+                            color={"#52734D"}
                         />
                     </Card.Text>
                     <Card.Text>
                         <h4>RS.{price}</h4>
                     </Card.Text>
                     <LinkContainer to={`/farmers/purchaseSeeds/${_id}`}>
-                        <Button className="btn-preview" varient="success">Preview here</Button>
+                        <Button className="btn-preview">Preview here</Button>
                     </LinkContainer>
                 </Card.Body>
             </Card>
