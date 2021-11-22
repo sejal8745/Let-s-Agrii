@@ -14,7 +14,7 @@ const HomeScreen = () => {
             <SliderComponent />
             <CardMenu />
             <OurServices />
-            <GenralMap />
+            {/* <GenralMap /> */}
         </>
     )
 }
