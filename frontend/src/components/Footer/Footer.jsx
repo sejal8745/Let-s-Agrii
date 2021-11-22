@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <BrowserRouter>
             <MDBFooter color="blue-grey" className="page-footer font-small lighten-5 pt-0">
-                <div style={{ backgroundColor: "#008f11" }}>
+                <div style={{ backgroundColor: "#52734D" }}>
                     <MDBContainer>
                         <MDBRow className="py-4 d-flex align-items-center">
                             <MDBCol md="6" lg="5" className="text-center text-md-left mb-4 mb-md-0">
@@ -39,11 +39,11 @@ const Footer = () => {
                     <MDBRow className="mt-3">
                         <MDBCol md="3" lg="3    " xl="3" className="mb-4 dark-grey-text">
                             <h6 className="text-uppercase font-weight-bold">
-                                <strong>Agroic</strong>
+                                <strong>Let's Agrii</strong>
                             </h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
                             <p>
-                                The purpose of Agroic is to provide connections between different roles in the agriculture industry. As the farmers are not getting a fair price for their goods because of contractors. This app removes the requirement of contractors for farmers. Farmers can buy their required needs for farming from Sellers and they can also sell their products to the Consumers
+                                The purpose of Let's Agrii is to provide connections between different roles in the agriculture industry. As the farmers are not getting a fair price for their goods because of contractors. This app removes the requirement of contractors for farmers. Farmers can buy their required needs for farming from Sellers and they can also sell their products to the Consumers
                             </p>
                         </MDBCol>
                         <MDBCol md="2" lg="2" xl="2" className="mb-4 dark-grey-text">
@@ -51,10 +51,10 @@ const Footer = () => {
                                 <strong>Links</strong>
                             </h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
-                            <p><Link to="/farmer" className="dark-grey-text">Famer</Link></p>
-                            <p><Link to="/consumer" className="dark-grey-text">Consumer </Link></p>
-                            <p><Link to="/supplier" className="dark-grey-text">Supplier</Link></p>
-                            <p><Link to="/cart" className="dark-grey-text">Cart</Link></p>
+                            <p><Link style={{color: "#91C788"}} to="/farmer" className="dark-grey-text">Famer</Link></p>
+                            <p><Link style={{color: "#91C788"}} to="/consumer" className="dark-grey-text">Consumer </Link></p>
+                            <p><Link style={{color: "#91C788"}} to="/supplier" className="dark-grey-text">Supplier</Link></p>
+                            <p><Link style={{color: "#91C788"}} to="/cart" className="dark-grey-text">Cart</Link></p>
                         </MDBCol>
                         <MDBCol md="3" lg="3" xl="4" className="mb-4 dark-grey-text">
                             <h6 className="text-uppercase font-weight-bold">
@@ -80,17 +80,17 @@ const Footer = () => {
                                     <Form.Label>Comment</Form.Label>
                                     <Form.Control as="textarea" rows={3} type="text" placeholder="Write Your Thoughts" />
                                 </Form.Group>
-                                <Button variant="primary" type="submit">Send message</Button>
+                                <Button style={{backgroundColor:"#91C788", border: "none"}} type="submit">Send message</Button>
                             </Form>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
-                <div className="footer-copyright text-center py-3">
+                {/* <div className="footer-copyright text-center py-3">
                     <MDBContainer fluid>
                         &copy; {new Date().getFullYear()} Copyright:{" "}
                     Sanjula De Alwis
                 </MDBContainer>
-                </div>
+                </div> */}
             </MDBFooter>
         </BrowserRouter>
     )

@@ -1,7 +1,8 @@
 .title {
-  font-weight: bold;
+  color: #52734d;
   text-align: center;
   font-size: 28px;
+  font-weight: bolder;
 }
 
 .card-deck {
