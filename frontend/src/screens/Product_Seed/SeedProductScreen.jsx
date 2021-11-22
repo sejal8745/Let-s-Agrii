@@ -89,7 +89,7 @@ const SeedProductScreen = ({ history, match }) => {
                                                 <h2>{productSeed.name}</h2>
                                             </ListGroup.Item>
                                             <ListGroup.Item>
-                                                <Rating value={productSeed.rating} text={`${productSeed.numReviews} reviews`} />
+                                                <Rating value={productSeed.rating} text={`${productSeed.numReviews} reviews`} color={"#52734D"} />
                                             </ListGroup.Item>
                                             <ListGroup.Item>
                                                 <h4>Price: {productSeed.price}</h4>
