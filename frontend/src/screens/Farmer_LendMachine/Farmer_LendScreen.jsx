@@ -62,10 +62,10 @@ const Farmer_LendScreen = () => {
                                     }
                                     {
                                         numberOfItems >= productLendMachines.length
-                                            ? <Alert style={{ backgroundColor: 'red' }} className="col-md-12 text-center">Finished</Alert>
+                                            ? <Alert style={{ backgroundColor: '#52734D' }} className="col-md-12 text-center">Finished</Alert>
                                             : ''
                                     }
-                                    <Button className="col-md-12 text-center" variant="success outline-dark" onClick={showMore}>show more</Button>
+                                    <Button className="col-md-12 text-center" style = {{ backgroundColor: '#91C788'}}  onClick={showMore}>show more</Button>
                                 </Row>
                             )
                 }
