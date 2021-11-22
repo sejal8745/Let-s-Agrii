@@ -21,7 +21,7 @@ const LendMachines = ({ _id, name, image, targetPlant, price }) => {
                         <h3>RS.{price}</h3>
                     </Card.Text>
                     <LinkContainer to={`/farmers/lendMachines/${_id}`}>
-                        <Button className="btn-preview" varient="success">Preview here</Button>
+                        <Button className="btn-preview btn1">Preview here</Button>
                     </LinkContainer>
                 </Card.Body>
             </Card>
