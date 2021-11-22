@@ -12,3 +12,10 @@
     align-items: center;
     margin-left: 25% !important;
 }
+
+.btn1 {
+    background-color : #91C788;
+}
+.btn1:hover {
+    background-color : #52734D;
+}
