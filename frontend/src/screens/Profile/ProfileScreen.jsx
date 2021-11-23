@@ -86,7 +86,7 @@ const ProfileScreen = ({ history }) => {
     return (
         <Container fluid style={{ marginBottom: '50px' }}>
             <Meta
-                title="Agroic | Profile"
+                title="Let's Agrii | Profile"
             />
             <Row>
                 <Col md={3}>
@@ -107,10 +107,10 @@ const ProfileScreen = ({ history }) => {
                             ></Form.Control>
                         </Form.Group>
                         <Form.Group controlId='email'>
-                            <Form.Label>Email Address / NIC <span style={{ color: 'red' }}>*</span></Form.Label>
+                            <Form.Label>Email Address <span style={{ color: 'red' }}>*</span></Form.Label>
                             <Form.Control
                                 type="nic"
-                                placeholder="Enter email or NIC"
+                                placeholder="Enter email"
                                 value={email}
                                 required
                                 onChange={(e) => setEmail(e.target.value)}
@@ -143,7 +143,7 @@ const ProfileScreen = ({ history }) => {
                                 onChange={(e) => setConfirmPassword(e.target.value)}
                             ></Form.Control>
                         </Form.Group>
-                        <Button type="submit" variant="primary">Update</Button>
+                        <Button type="submit" style = {{ backgroundColor: '#91C788', border: "none"}}>Update</Button>
                     </Form>
                 </Col>
                 <Col md={9}>
@@ -179,7 +179,7 @@ const ProfileScreen = ({ history }) => {
                                                             }</td>
                                                             <td>
                                                                 <LinkContainer to={`/order/${order._id}`}>
-                                                                    <Button className="btn-sm" variant="success">Details</Button>
+                                                                    <Button className="btn-sm" style = {{ backgroundColor: '#91C788', border: "none"}}>Details</Button>
                                                                 </LinkContainer>
                                                             </td>
                                                         </tr>
@@ -248,7 +248,7 @@ const ProfileScreen = ({ history }) => {
                                                             </td>
                                                             <td>
                                                                 <LinkContainer to={`/supplierproducts/${product._id}/edit`}>
-                                                                    <Button variant="light" className="btn btn-sm">
+                                                                    <Button className="btn btn-sm" style = {{ backgroundColor: '#91C788', border: "none"}}>
                                                                         <i className="fas fa-edit"></i>
                                                                     </Button>
                                                                 </LinkContainer>
