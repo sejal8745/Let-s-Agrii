@@ -31,7 +31,7 @@ const ShippingScreen = ({ history }) => {
         <div style={{ marginTop: '100px' }}>
             <FormContainer>
                 <Meta
-                    title="Agroic | Shipping"
+                    title="Let's Agrii | Shipping"
                 />
                 <CheckoutSteps step1 step2 />
                 <h1>Shipping</h1>
@@ -76,7 +76,7 @@ const ShippingScreen = ({ history }) => {
                             onChange={(e) => setCountry(e.target.value)}
                         ></Form.Control>
                     </Form.Group>
-                    <Button type='submit'>Continue</Button>
+                    <Button type='submit' style = {{ backgroundColor: '#91C788', border: "none"}}>Continue</Button>
                 </Form>
             </FormContainer>
         </div>
