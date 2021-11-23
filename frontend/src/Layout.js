@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import LoginComponent from "./components/Login/LoginComponent";
 import Register from "./components/Register/Register";
 import PlaceOrder from "./components/PlaceOrder/PlaceOrder.jsx";
+// import Chatbot from "./components/ChatBot/Chatbot";
 
 import HomeScreen from "./screens/Home/HomeScreen";
 import Consumer from "./screens/Consumer/ConsumerScreen";
@@ -34,6 +35,7 @@ import OrderListScreen from "./screens/Dashboard/OrderListScreen";
 import HarvestScreen from "./screens/Dashboard/HarvestScreen";
 import FarmerProduct from "./screens/FarmerProducts/FarmerProducts";
 import MapScreen from "./screens/Dashboard/MapScreen";
+
 
 const Layout = () => {
   return (
@@ -127,7 +129,9 @@ const Layout = () => {
             component={ConsumerProductDetailScreen}
           />
         </Switch>
+        
         <Footer />
+        {/* <Chatbot /> */}
       </Router>
     </>
   );
