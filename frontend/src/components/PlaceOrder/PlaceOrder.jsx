@@ -56,7 +56,7 @@ const PlaceOrder = ({ history }) => {
         <div style={{ marginTop: '100px' }}>
             <Container>
                 <Meta
-                    title="Agroic | Order"
+                    title="Let's Agrii | Order"
                 />
                 <Row className="justify-content-md-center">
                     <Col xs={12} md={6}>
@@ -150,6 +150,7 @@ const PlaceOrder = ({ history }) => {
                                         className="btn-block"
                                         disabled={cart.cartItems === 0}
                                         onClick={placeOrder}
+                                        style = {{ backgroundColor: '#91C788', border: "none"}}
                                     >Place Order</Button>
                                 </ListGroup.Item>
                             </ListGroup>

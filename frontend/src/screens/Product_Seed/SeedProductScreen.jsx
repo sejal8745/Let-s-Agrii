@@ -69,7 +69,7 @@ const SeedProductScreen = ({ history, match }) => {
     return (
         <div className="productScreen">
             <Meta
-                title="Agroic | Seed"
+                title="Let's Agrii | Seed"
             />
             <Container>
                 <Link className="btn btn-go-back btn-dark" to="/farmers/purchaseSeeds">GO BACK</Link>
@@ -138,7 +138,7 @@ const SeedProductScreen = ({ history, match }) => {
                                                     )
                                                 }
                                                 <ListGroup.Item>
-                                                    <Button type="button" className="btn btn-block" onClick={addToCartHandler}>Add To Cart</Button>
+                                                    <Button type="button" className="btn btn-block" style = {{ backgroundColor: '#91C788', border: "none"}} onClick={addToCartHandler}>Add To Cart</Button>
                                                 </ListGroup.Item>
                                             </ListGroup>
                                         </Card>
@@ -203,7 +203,7 @@ const SeedProductScreen = ({ history, match }) => {
                                         <Button
                                             disabled={loadingProductReview}
                                             type='submit'
-                                            variant='primary'
+                                            style = {{ backgroundColor: '#91C788', border: "none"}}
                                         >Submit</Button>
                                     </Form>
                                 ) : (
