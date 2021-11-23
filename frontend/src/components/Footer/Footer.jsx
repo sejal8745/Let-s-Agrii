@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, BrowserRouter } from 'react-router-dom';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import { Form, Button } from 'react-bootstrap'
+import Chatbot from "../ChatBot/Chatbot";
 
 import './Footer.css'
 
@@ -89,6 +90,9 @@ const Footer = () => {
                     <MDBContainer fluid>
                         &copy; {new Date().getFullYear()} Copyright
                 </MDBContainer>
+                </div>
+                <div>
+                <Chatbot />
                 </div>
             </MDBFooter>
         </BrowserRouter>
