@@ -74,10 +74,10 @@ const UserEditScreen = ({ match, history }) => {
                                 ></Form.Control>
                             </Form.Group>
                             <Form.Group controlId='email'>
-                                <Form.Label>Email Address / NIC <span style={{ color: 'red' }}>*</span></Form.Label>
+                                <Form.Label>Email Address <span style={{ color: 'red' }}>*</span></Form.Label>
                                 <Form.Control
                                     type="nic"
-                                    placeholder="Enter email or NIC"
+                                    placeholder="Enter email Address"
                                     value={email}
                                     required
                                     onChange={(e) => setEmail(e.target.value)}
