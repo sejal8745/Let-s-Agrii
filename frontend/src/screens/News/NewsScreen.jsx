@@ -8,14 +8,7 @@ function NewsScreen() {
   return (
     <div className="daily">
       <NewsContextProvider>
-        {/* <CHeader heading="News" /> */}
-        <div className="parallax">
-          <h3 className="pa_text">Keep Yourself Updated!</h3>
-        
-        <div className="x">
-          <News />
-        </div> 
-        </div>
+        <News />
       </NewsContextProvider>
     </div>
   );
