@@ -8,7 +8,7 @@
 }
 
 .new {
-  background-image: url("https://github.com/sejal8745/SheHacks_Team-017/blob/main/src/Assets/bg%20(1).png");
+  background-color: #ddffbc91;
 }
 @media screen and (max-width: 900px) {
   .all__news {
