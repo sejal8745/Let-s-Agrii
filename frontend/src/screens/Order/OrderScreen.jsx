@@ -206,6 +206,7 @@ const OrderScreen = ({ match }) => {
                                                                 type='button'
                                                                 className='btn btn-block'
                                                                 onClick={deliverHandler}
+                                                                style = {{ backgroundColor: '#91C788', border: "none"}}
                                                             > Mark as delivered </Button>
                                                         </ListGroup.Item>
                                                     )
