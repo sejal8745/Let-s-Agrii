@@ -84,7 +84,7 @@ const OrderScreen = ({ match }) => {
     return (
         <div>
             <Meta
-                title="Agroic | Order"
+                title="Let's Agrii | Order"
             />
             {
                 loading
@@ -97,12 +97,12 @@ const OrderScreen = ({ match }) => {
                                     <Col md={8}>
                                         <ListGroup variant='flush' className="mb-3">
                                             <ListGroup.Item>
-                                                <h1>Shipping</h1>
+                                                <h1>Shipping Details</h1>
                                                 <p>
                                                     <strong>Name: </strong>{order.user.name}
                                                 </p>
                                                 <p>
-                                                    <strong>Email / NIC: </strong>
+                                                    <strong>Email Address </strong>
                                                     <a href={`mailto:${order.user.email}`}>{order.user.email}</a>
                                                 </p>
                                                 <p>
@@ -206,6 +206,7 @@ const OrderScreen = ({ match }) => {
                                                                 type='button'
                                                                 className='btn btn-block'
                                                                 onClick={deliverHandler}
+                                                                style = {{ backgroundColor: '#91C788', border: "none"}}
                                                             > Mark as delivered </Button>
                                                         </ListGroup.Item>
                                                     )
