@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+.x {
+  background: transparent;
+}
+
+.parallax {
+  /* background-image: url("../../Assets/bg\ \(1\).png"); */
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pa_text {
+  padding: 80px;
+  font-family: "Syne Mono", monospace;
+  font-size: 50px;
+  color: palevioletred;
+}

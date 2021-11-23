@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.news {
+  padding: 5%;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  background-color: rgb(34, 30, 30);
+}
+
+.news__title {
+  font-family: "Shippori Mincho", serif;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(231, 115, 206);
+  font-size: 1.5em;
+  text-align: start;
+  margin-top: 20px;
+  color: white;
+}
+
+.news__desc {
+  padding-top: 15px;
+  line-height: 25px;
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: rgb(172, 166, 166);
+  text-align: start;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.news__author {
+  padding: 5px;
+  margin-right: 10px;
+  color: #eb72d7;
+  display: flex;
+  flex-direction: column;
+}
+
+.news__published {
+  margin-right: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.news__source,
+.news__published {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgb(122, 122, 122);
+  display: flex;
+  flex-direction: column;
+}
