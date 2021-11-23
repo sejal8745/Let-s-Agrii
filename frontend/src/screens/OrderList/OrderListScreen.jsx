@@ -72,7 +72,7 @@ const OrderListScreen = ({ history }) => {
                                                 </td>
                                                 <td>
                                                     <LinkContainer to={`/order/${order._id}/edit`}>
-                                                        <Button varinat='light' className='btn-sm'>
+                                                        <Button style = {{ backgroundColor: '#91C788', border: "none"}} className='btn-sm'>
                                                             Details
                                                         </Button>
                                                     </LinkContainer>
