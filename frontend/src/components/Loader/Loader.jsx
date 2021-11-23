@@ -12,7 +12,7 @@ const override = css`
 const Loader = () => {
 
     let [loading] = useState(true);
-    let [color] = useState("#24d32b");
+    let [color] = useState("#DDFFBC");
 
     return (
         <div className="sweet-loading">
