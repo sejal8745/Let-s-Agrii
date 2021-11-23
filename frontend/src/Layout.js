@@ -12,6 +12,7 @@ import HomeScreen from "./screens/Home/HomeScreen";
 import Consumer from "./screens/Consumer/ConsumerScreen";
 import Farmer from "./screens/Farmer/FarmerScreen";
 import Supplier from "./screens/Supplier/SupplierScreen";
+import NewsScreen from "./screens/News/NewsScreen";
 import ProfileScreen from "./screens/Profile/ProfileScreen";
 import DashboardScreen from "./screens/Dashboard/DashboardScreen";
 import AdminProfileScreen from "./screens/Dashboard/ProfileScreen";
@@ -47,6 +48,8 @@ const Layout = () => {
           <Route exact path="/farmer" component={Farmer} />
           <Route exact path="/consumer" component={Consumer} />
           <Route exact path="/supplier" component={Supplier} />
+          <Route exact path="/news" component={NewsScreen} />
+
           <Route
             exact
             path="/farmers/sellMeterial"

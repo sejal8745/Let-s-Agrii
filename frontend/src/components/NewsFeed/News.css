@@ -1,0 +1,23 @@
+.all__news {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 29% 29% 29%;
+  row-gap: 10px;
+  column-gap: 2%;
+}
+
+.new {
+  background-color: #ddffbc91;
+}
+@media screen and (max-width: 900px) {
+  .all__news {
+    grid-template-columns: 46% 46%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .all__news {
+    grid-template-columns: 92%;
+    column-gap: 4%;
+  }
+}

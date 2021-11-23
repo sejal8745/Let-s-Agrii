@@ -39,6 +39,9 @@ const Header = () => {
                     <LinkContainer to="login?redirect=supplier">
                         <Nav.Link className="nav-cal">SUPPLIER</Nav.Link>
                     </LinkContainer>
+                    <LinkContainer to="/news">
+                        <Nav.Link className="nav-cal">Feeds</Nav.Link>
+                    </LinkContainer>
                     <LinkContainer to="/cart" >
                         <Nav.Link className={`${userInfo ? "remove-space" : "add-space cart nav-cal"} `}>
                             <i className="fas fa-shopping-cart"></i>
