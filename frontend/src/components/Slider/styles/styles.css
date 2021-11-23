@@ -47,12 +47,12 @@ button {
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
   border: none;
-  background: #FFD800;
-  border-radius: 30px;
+  background: #91C788;
+  border-radius: 10px;
   text-transform: uppercase;
   box-sizing: border-box;
-  padding: 15px 40px;
-  font-weight: 400;
+  padding: 10px 20px;
+  font-weight: 600;
   font-size: 13px;
   cursor: cursor;
 }
