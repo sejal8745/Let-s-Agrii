@@ -24,12 +24,12 @@ import {
     updateConsumer
 } from './../controllers/consumerProductControlller.js'
 import { protect, admin } from './../middleware/authMiddleware.js'
-
+//Route for Seeds
 router
     .route('/seeds')
     .get(getSeedProducts)
     .post(protect, admin, createSeedProduct)
-
+//Route for Seeds Review
 router
     .route('/seeds/:id/reviews')
     .post(protect, createSeedProductReview)
@@ -39,7 +39,7 @@ router
     .get(getSeedProductById)
     .delete(protect, admin, deleteSeedProduct)
     .put(protect, admin, updateSeedProduct)
-
+//Route for LendMachines
 router
     .route('/lendMachines')
     .get(getLendMachnines)
@@ -50,7 +50,7 @@ router
     .get(getLendMachnineById)
     .delete(protect, admin, deleteLendMachnine)
     .put(protect, admin, updateLendMachine)
-
+//Route for Consumer
 router
     .route('/consumer')
     .get(getConsumerProducts)
