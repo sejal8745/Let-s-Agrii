@@ -14,6 +14,7 @@ import supplierRoutes from './routes/supplierRoutes.js'
 
 dotenv.config('./../.env');
 
+//connecting database to server
 connectDB();
 
 const app = express();
