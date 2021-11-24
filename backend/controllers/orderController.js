@@ -38,7 +38,7 @@ const addOrderItems = asyncHandler(async (req, res) => {
     }
 })
 
-// @desc    Get order by ID
+// @desc    Get any order by ID
 // @rout    GET /api/orders/:id
 // @access  private
 const getOrderById = asyncHandler(async (req, res) => {
@@ -104,7 +104,7 @@ const getMyOrders = asyncHandler(async (req, res) => {
     res.json(orders)
 })
 
-// @desc    Get all orders
+// @desc    Get all the orders
 // @route   GET /api/orders
 // @access  Private/Admin
 const getOrders = asyncHandler(async (req, res) => {
