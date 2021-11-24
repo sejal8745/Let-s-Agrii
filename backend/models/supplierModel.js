@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-
+//Models for SupplierModels
 const farmerProductReviewSchema = mongoose.Schema({
     name: {
         type: String,
