@@ -11,7 +11,7 @@ import {
     updateSupplierProductProfile
 } from './../controllers/supplierController.js'
 const router = express.Router()
-
+//Routes for Supplier
 router
     .route('/')
     .post(protect, createSupplierProduct)
