@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-
+//Models for ProductLendMachine
 const machineReviewSchema = mongoose.Schema({
     name: {
         type: String,

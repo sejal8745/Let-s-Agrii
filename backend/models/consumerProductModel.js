@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-
+//Models for ConsumerProducts
 const consumerProductReviewSchema = mongoose.Schema({
     name: {
         type: String,
