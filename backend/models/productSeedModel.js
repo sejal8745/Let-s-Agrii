@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-
+//Models for ProducSeedModels
 const seedReviewSchema = mongoose.Schema({
     name: {
         type: String,
